@@ -10,6 +10,12 @@ If the user goes to the following direction then:
 * **Left:** If the Ram choose the left side then he will move towards it and again see diversions one way go straight and another goes on right hand side.
 * **Right:** If the  Ram  decides to go right side then after walking few miles, he saw a way in his left-hand side then he turns left and continue his walk. Then he sees 3 ways going in different directions one in left side one in right ide and last in straight direction
 
+## Game Features
+* It helps the person to improve his/her reading skills by playing text-based games.
+* Graphics and animations make the game more attractive while playing.
+* Sound-Effects helps the person to relax his/her mind while playing.
+
+
 ## How to Play
 
 No need to rely on installing any external dependencies or services. Just download the zip folder and open the index.html page.
