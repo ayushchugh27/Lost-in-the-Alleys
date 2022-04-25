@@ -1,0 +1,27 @@
+ <html>
+<title>Text-Based-Adventure Game</title>
+<head>
+ <link rel="stylesheet" href="AyushChugh.css">
+<script src="BackToHotel.js"></script>
+
+<header>
+    <h1><span>Lost in the</span> Alleys <br> (Part-2)</h1>
+</header>
+</head>
+<body>
+<div id="content" style="display:none;">
+<div id="description"></div>
+</div>
+<p>After leaving from the museum, he first goes to the cycle store to return their cycle and to pay the rent. After billing he continue his walk to hotel but his trip to Sri Lanka is not too good because while going, he saw that there is the protest going on the street where the hotel is there is no way to go from there. Then he sees that there are  roads going in left and right side where he thinks that one will meet to the hotel.</p>
+   
+    <button type="button" onclick="typed('TypeDirection')">Type Direction Left/Right</button><br><br>
+
+    <div id="TypeDirection" class="hide">
+      
+         <form>
+    <input type="text" id="leftright" placeholder="Left/Right">
+           <input type="button" value="Move" onclick="checkleftright()" />
+        </form>
+    </div>
+</body>
+</html>

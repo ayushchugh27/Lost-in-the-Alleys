@@ -1,0 +1,63 @@
+ <html>
+<title>Text-Based-Adventure Game</title>
+<head>
+ <link rel="stylesheet" href="AyushChugh.css">
+<script src="BackToHotel.js"></script>
+
+<header>
+    <h1><span>Lost in the</span> Alleys <br> (Part-2)</h1>
+</header>
+</head>
+<body>
+<div id="content" style="display:none;">
+<div id="description"></div>
+</div>
+      
+    <p>Ram choose the Left direction and while moving forward he see 2 directiosn to move forward. i.e.,<br> Staright and Right </p>
+    <div id="LeftDirection" >
+      
+         <form>
+    <input type="text" id="left" placeholder="Straight/Right">
+           <input type="button" value="Move" onclick="leftmove('')" />
+        </form>
+    </div>
+    
+    <div id="straightdirection" class="hide">
+        <p>Ram choose the Straight diection but in the straight it is dead end with 2 diversions i.e right and left side. </p>
+     <form>
+    <input type="text" id="StraightD" placeholder="Right/Left">
+   <input type="button" value="Move" onclick="straight('')" />
+    </form>
+    </div>
+        <div id="Rightdirection" class="hide">
+        <p>Ram choose the Right diection After moving some distance he see 2 ways to move that is staright and right </p>
+     <form>
+    <input type="text" id="RightD" placeholder="Straight/Right">
+   <input type="button" value="Move" onclick="right('')" />
+    </form>
+    </div>
+    
+            <div id="LeftStraight" class="hide">
+        <p>Ram choose the Left diection and see the constrction site.
+                Retype the direction</p>
+    </div>
+    
+    <div id="RightStraight" class="hide">
+        <p>Ram choose the Right diection and he finally reaches the hotel</p>
+      <!--  <img src="Hotel-PNG.png">-->
+    </div>
+    
+    
+        
+            <div id="RightRight" class="hide">
+        <p>Ram choose the Right diection and he saws the protest going on.
+                Retype the direction</p>
+    </div>
+    
+    <div id="StraightRight" class="hide">
+        <p>Ram choose the straight diection and he finally reaches the hotel</p>
+      <!--  <img src="Hotel-PNG.png">-->
+    </div>
+    
+</body>
+</html>

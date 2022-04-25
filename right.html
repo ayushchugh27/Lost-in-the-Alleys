@@ -1,0 +1,39 @@
+ <html>
+<title>Text-Based-Adventure Game</title>
+<head>
+ <link rel="stylesheet" href="AyushChugh.css">
+<script src="Right.js"></script>
+
+<header>
+    <h1><span>Lost in the</span> Alleys <br> (Part-2)</h1>
+</header>
+</head>
+<body>
+<div id="content" style="display:none;">
+<div id="description"></div>
+</div>
+    <p>Ram choose the Right direction and while moving forward he see 3 directiosn to move forward. i.e <br> Staright, Left and Right </p>
+    
+    <div id="RightDirection" >
+      
+         <form>
+    <input type="text" id="right" placeholder="Straight/Right/Left">
+           <input type="button" value="Move" onclick="Rightmove('')" />
+        </form>
+    </div>
+    
+                <div id="Right" class="hide">
+        <p>Ram choose the Right direction and he goes towards the forest where their is no way to hotel. Retype the direction</p>
+    </div>
+    
+    <div id="Straight" class="hide">
+        <p>Ram choose the straight direction and he finally reaches the hotel</p>
+      <!--  <img src="Hotel-PNG.png">-->
+    </div>
+    
+    <div id="Left" class="hide">
+        <p>Ram choose the Left direction and he saws the protest going on.
+                Retype the direction</p>
+    </div>
+</body>
+</html>
